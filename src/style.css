@@ -1,0 +1,29 @@
+.image {
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.div1text {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Trebuchet MS";
+  color: white;
+}
+
+.headDiv {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 350px;
+}
+
+.div2Title {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Trebuchet MS";
+  color: black;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}

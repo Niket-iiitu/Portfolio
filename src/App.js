@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Container, AppBar, Typography, Grow, Grid } from "@material-ui/core";
+import myImage from "./images/myImage.jpg";
+import headWallpaper from "./images/HeadWallpaperShrink.jpg";
+import SkillSet from "./SkillCard/skills";
+import ProjectSet from "./ProjectCard/projects";
+import "./style.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <main>
+        <div style={{ backgroundColor: "black" }}>
+          <center>
+            <div
+              style={{
+                backgroundImage: `url(${headWallpaper})`,
+                paddingTop: "5vh",
+                paddingBottom: "5vh",
+                margin: "0px",
+                textStyle: "bold",
+              }}
+              className="headDiv"
+            >
+              <img src={myImage} alt="Niket Agrawal" className="image" />
+              <div className="div1text">Niket Agrawal</div>
+              <div className="div1text">
+                Developer | Competitive Programming | Innovator
+              </div>
+            </div>
+          </center>
+        </div>
+        <div>
+          <div className="div2Title">Skill Set</div>
+          <div Container>
+            <SkillSet />
+          </div>
+        </div>
+        <div>
+          <div className="div2Title">Major Projects</div>
+          <div style={{ alignItems: "center" }}>
+            <ProjectSet />
+          </div>
+        </div>
+      </main>
     </div>
   );
-}
-
+};
 export default App;
