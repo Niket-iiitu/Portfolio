@@ -31,19 +31,38 @@ const App = () => {
         </div>
         <div>
           <div className="div2Title">Skill Set</div>
-          <div Container style={{ alignItems: "center", paddingTop: "10px" }}>
+          <div
+            Container
+            style={{
+              alignItems: "center",
+              paddingTop: "20px",
+              paddingBottom: "20px",
+            }}
+          >
             <SkillSet />
           </div>
         </div>
         <div>
           <div className="div2Title">Major Projects</div>
-          <div style={{ alignItems: "center", paddingTop: "10px" }}>
+          <div
+            style={{
+              alignItems: "center",
+              paddingTop: "20px",
+              paddingBottom: "20px",
+            }}
+          >
             <ProjectSet />
           </div>
         </div>
         <div>
           <div className="div2Title">Competitive Programming</div>
-          <div style={{ paddingLeft: "40px", paddingTop: "10px" }}>
+          <div
+            style={{
+              paddingLeft: "40px",
+              paddingTop: "20px",
+              paddingBottom: "20px",
+            }}
+          >
             <img
               align="left"
               alt="Nikets's Codechef"
@@ -79,7 +98,11 @@ const App = () => {
           <div className="div2Title">Education</div>
           <div
             className="row"
-            style={{ alignItems: "center", paddingTop: "10px" }}
+            style={{
+              alignItems: "center",
+              paddingTop: "20px",
+              paddingBottom: "20px",
+            }}
           >
             <div style={{ paddingLeft: "40px" }}>
               <img
@@ -102,7 +125,7 @@ const App = () => {
         </div>
         <div>
           <div className="div2Title">Contact Details</div>
-          <div style={{ padding: "40px" }}>
+          <div style={{ padding: "20px" }}>
             <b>Email: </b>niketagrawal777@gmail.com
             <br />
             <b>LinkedIn: </b> linkedin.com/in/niket-agrawal-baa183191
@@ -113,7 +136,7 @@ const App = () => {
         </div>
         <div>
           <div className="div2Title">Other Details</div>
-          <div style={{ padding: "40px" }}>
+          <div style={{ padding: "20px" }}>
             <b>OS Used: </b> Windows, Kubantu(Linux)
             <br />
             <b>Languages: </b> English, Hindi

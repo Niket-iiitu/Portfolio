@@ -22,10 +22,13 @@
   font-size: 40px;
   font-weight: bold;
   font-family: "Trebuchet MS";
-  color: black;
+  color: white;
   align-items: center;
   text-align: center;
-  padding-top: 10px;
-  border-bottom: 1px solid orange;
+  /* padding-top: 10px; */
+  /* border-bottom: 1px solid rgb(255, 5, 5); */
   border-bottom-style: solid;
+  background-color: rgb(5, 155, 255);
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+  border-color: rgb(5, 155, 255);
 }
