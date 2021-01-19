@@ -15,7 +15,7 @@ const ProjectSet = () => {
         title="Student Management"
         language="Python"
         link="https://github.com/Niket-iiitu/Student-Management"
-        description="Offline desktop application that allows the user to manage details of students in schools/collages. Takes general line input to understand the task to be conducted."
+        description="Offline desktop application that allows the user to manage details of students in schools/colleges. Takes general line input to understand the task to be conducted."
       />
       <ProjectCard
         title="Code Chat"

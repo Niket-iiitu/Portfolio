@@ -118,7 +118,7 @@ const App = () => {
               <br />
               <b>Year: </b> 2019-23
               <br />
-              <b>Status: </b> Underway
+              <b>Status: </b> Second Year
               <br />
             </div>
           </div>
