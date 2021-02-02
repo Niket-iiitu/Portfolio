@@ -39,7 +39,7 @@ const ProjectSet = () => {
         title="Tools Online"
         language="Node JS, React, Redux, Bootstrap, Mongo DB"
         link="https://tools-forest.netlify.app/"
-        description="A website to hire tools on rent from the nearest owner in a flexible and easy manner."
+        description="A website to hire tools on rent from the nearest owner in a flexible and easy manner. (Group Project)"
       />
     </div>
   );
