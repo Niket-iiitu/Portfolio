@@ -74,7 +74,7 @@ const SkillSet = () => {
         title="DSA"
       />
       <SkillCard
-        url="http://impact10x.com/images/icons/icon-machine%20learning-200x200.jpg"
+        url="https://www.pngfind.com/pngs/m/683-6838440_machine-learning-icon-png-artificial-intelligence-logo-png.png"
         title="ML"
       />
       <SkillCard

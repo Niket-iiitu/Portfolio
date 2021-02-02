@@ -35,6 +35,12 @@ const ProjectSet = () => {
         link="https://niket-iiitu.github.io/Memories/"
         description="A website to share the most memorable moments of your life with others. You can also like others post."
       />
+      <ProjectCard
+        title="Tools Online"
+        language="Node JS, React, Redux, Bootstrap, Mongo DB"
+        link="https://tools-forest.netlify.app/"
+        description="A website to hire tools on rent from the nearest owner in a flexible and easy manner."
+      />
     </div>
   );
 };
