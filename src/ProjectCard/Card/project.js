@@ -28,7 +28,7 @@ const ProjectCard = ({ title, language, description, link, url }) => {
                 >
                   <div
                     className="ProjectScreenContent"
-                    style={{ backgroundColor: "rgb(33, 17, 180)" }}
+                    style={{ backgroundColor: "rgb(62,108,255)" }}
                   >
                     <div>
                       <h2
@@ -51,7 +51,7 @@ const ProjectCard = ({ title, language, description, link, url }) => {
                         borderBottomRightRadius: "10px",
                       }}
                     >
-                      <h6 style={{ fontWeight: "bold", color: "purple" }}>
+                      <h6 style={{ fontWeight: "bold", color: "orange" }}>
                         {language}
                       </h6>
                       <h6
