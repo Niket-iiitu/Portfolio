@@ -1,0 +1,27 @@
+.ProjectScreenContentE {
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px 10px 10px 10px;
+  min-width: 90vw !important;
+  height: 300px !important;
+  background-color: #fffdfd;
+  text-align: center;
+  border-radius: 0px;
+  width: 100%;
+  height: "100%";
+  display: "flex";
+}
+
+.HomeScreenSkillContentP {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.expBack {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100;
+}

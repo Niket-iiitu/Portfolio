@@ -1,71 +1,82 @@
 import React from "react";
+import LightSpeed from "react-reveal/LightSpeed";
 import "./style.css";
+import Flip from "react-reveal/Flip";
 
-const ProjectCard = ({ title, language, description, link }) => {
+const ProjectCard = ({ title, language, description, link, url }) => {
   return (
-    <div>
-      <div className="container">
-        <div className="row">
-          <div className="HomeScreenAchievementsCard">
-            <div className="row">
-              <div
-                item
-                xs={3}
-                sm={3}
-                className="col-sm"
-                style={{
-                  maxWidth: "300px",
-                  height: "auto",
-                }}
-              >
+    <Flip right>
+      <div
+        onClick={() => {
+          window.open(url);
+        }}
+        title={"Click to Open"}
+      >
+        <div className="container">
+          <div className="row">
+            <div className="HomeScreenAchievementsCard">
+              <div className="row">
                 <div
-                  className="ProjectScreenContent"
-                  style={{ backgroundColor: "rgb(33, 17, 180)" }}
+                  item
+                  xs={3}
+                  sm={3}
+                  className="col-sm"
+                  style={{
+                    maxWidth: "300px",
+                    height: "auto",
+                  }}
                 >
-                  <div>
-                    <h2
-                      style={{
-                        height: "80px",
-                        alignItems: "center",
-                        borderBottom: "1px solid white",
-                        color: "white",
-                      }}
-                    >
-                      {title}
-                    </h2>
-                  </div>
                   <div
-                    style={{
-                      backgroundColor: "white",
-                      flex: "1 1 auto",
-                      height: "69%",
-                      borderBottomLeftRadius: "10px",
-                      borderBottomRightRadius: "10px",
-                    }}
+                    className="ProjectScreenContent"
+                    style={{ backgroundColor: "rgb(33, 17, 180)" }}
                   >
-                    <h6 style={{ fontWeight: "bold", color: "purple" }}>
-                      {language}
-                    </h6>
-                    <h6
+                    <div>
+                      <h2
+                        style={{
+                          height: "80px",
+                          alignItems: "center",
+                          borderBottom: "1px solid white",
+                          color: "white",
+                        }}
+                      >
+                        {title}
+                      </h2>
+                    </div>
+                    <div
                       style={{
-                        textAlign: "center",
-                        paddingLeft: "5px",
-                        paddingRight: "5px",
+                        backgroundColor: "white",
+                        flex: "1 1 auto",
+                        height: "69%",
+                        borderBottomLeftRadius: "10px",
+                        borderBottomRightRadius: "10px",
                       }}
                     >
-                      {description}
-                    </h6>
-                    <a
-                      href={link}
-                      style={{
-                        position: "absolute",
-                        bottom: "20px",
-                        left: "110px",
-                        textAlign: "center",
-                      }}
-                    >
-                      See Code
-                    </a>
+                      <h6 style={{ fontWeight: "bold", color: "purple" }}>
+                        {language}
+                      </h6>
+                      <h6
+                        style={{
+                          textAlign: "center",
+                          paddingLeft: "5px",
+                          paddingRight: "5px",
+                        }}
+                      >
+                        {description}
+                      </h6>
+                      <a
+                        href={link}
+                        rel="noreferrer"
+                        target="_blank"
+                        style={{
+                          position: "absolute",
+                          bottom: "20px",
+                          left: "110px",
+                          textAlign: "center",
+                        }}
+                      >
+                        <LightSpeed right>See Code</LightSpeed>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -73,7 +84,7 @@ const ProjectCard = ({ title, language, description, link }) => {
           </div>
         </div>
       </div>
-    </div>
+    </Flip>
   );
 };
 

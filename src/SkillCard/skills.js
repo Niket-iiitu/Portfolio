@@ -1,9 +1,7 @@
 import React from "react";
 import SkillCard from "./Card/skill";
-import makeStyles from "./style";
 
 const SkillSet = () => {
-  const classes = makeStyles();
   return (
     <div
       className="row"
@@ -13,10 +11,7 @@ const SkillSet = () => {
         alignItems: "center",
       }}
     >
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/c/c.png"
-        title="C"
-      />
+      <SkillCard url="https://wallpapercave.com/wp/wp4521293.png" title="C" />
       <SkillCard
         url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"
         title="C++"
@@ -62,7 +57,7 @@ const SkillSet = () => {
         title="Git Hub"
       />
       <SkillCard
-        url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Android_Studio_icon.svg/1200px-Android_Studio_icon.svg.png"
+        url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Breezeicons-apps-48-android-studio.svg/600px-Breezeicons-apps-48-android-studio.svg.png"
         title="Android Studio"
       />
       <SkillCard

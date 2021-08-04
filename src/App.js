@@ -1,8 +1,11 @@
 import React from "react";
 import myImage from "./images/myImage.jpg";
-import headWallpaper from "./images/HeadWallpaperShrink.jpg";
+import headWallpaper from "./images/GreenWallpaper.jpg";
 import SkillSet from "./SkillCard/skills";
 import ProjectSet from "./ProjectCard/projects";
+import ExpSet from "./ExpCard/Experience";
+import Zoom from "react-reveal/Zoom";
+import Rotate from "react-reveal/Rotate";
 import "./style.css";
 
 const App = () => {
@@ -16,6 +19,7 @@ const App = () => {
                 backgroundImage: `url(${headWallpaper})`,
                 paddingTop: "5vh",
                 paddingBottom: "5vh",
+                paddingLeft: "5vh",
                 margin: "0px",
                 textStyle: "bold",
               }}
@@ -30,7 +34,9 @@ const App = () => {
           </center>
         </div>
         <div>
-          <div className="div2Title">Skill Set</div>
+          <div className="div2Title">
+            <Zoom>Skill Set</Zoom>
+          </div>
           <div
             Container
             style={{
@@ -43,19 +49,27 @@ const App = () => {
           </div>
         </div>
         <div>
-          <div className="div2Title">Major Projects</div>
+          <div className="div2Title">
+            <Zoom>Experience</Zoom>
+          </div>
+          <ExpSet />
+          <div className="div2Title">
+            <Zoom>Major Projects</Zoom>
+          </div>
           <div
             style={{
               alignItems: "center",
-              paddingTop: "20px",
-              paddingBottom: "20px",
+              paddingTop: "40px",
+              paddingBottom: "40px",
             }}
           >
             <ProjectSet />
           </div>
         </div>
         <div>
-          <div className="div2Title">Competitive Programming</div>
+          <div className="div2Title">
+            <Zoom>Competitive Programming</Zoom>
+          </div>
           <div
             style={{
               paddingLeft: "40px",
@@ -63,31 +77,37 @@ const App = () => {
               paddingBottom: "20px",
             }}
           >
-            <img
-              align="left"
-              alt="Nikets's Codechef"
-              style={{ height: "20px", width: "20px" }}
-              src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/codechef.svg"
-            />
-            <a href="https://www.codechef.com/users/niket999">Code Chef</a>:
-            Currently a four star coder and now focussing on short challenges.
+            <Rotate top left>
+              <img
+                align="left"
+                alt="Nikets's Codechef"
+                style={{ height: "20px", width: "20px" }}
+                src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/codechef.svg"
+              />
+              <a href="https://www.codechef.com/users/niket999">Code Chef</a>
+              Currently a four star coder and now focussing on short challenges.
+            </Rotate>
             <br />
-            <img
-              align="left"
-              alt="Nikets's Codeforces"
-              style={{ height: "20px", width: "20px" }}
-              src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/codeforces.svg"
-            />
-            <a href="https://codeforces.com/profile/NIKET-777">Code Forces</a>:
-            Currently active, to enhance my grip on DSA.
+            <Rotate top left>
+              <img
+                align="left"
+                alt="Nikets's Codeforces"
+                style={{ height: "20px", width: "20px" }}
+                src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/codeforces.svg"
+              />
+              <a href="https://codeforces.com/profile/NIKET-777">Code Forces</a>
+              Currently active, to enhance my grip on DSA.
+            </Rotate>
             <br />
-            <img
-              align="left"
-              alt="Nikets's Codeforces"
-              style={{ height: "20px", width: "20px" }}
-              src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/hackerearth.svg"
-            />
-            <a href="https://www.hackerearth.com/@niket88">Hacker Earth</a>
+            <Rotate top left>
+              <img
+                align="left"
+                alt="Nikets's Codeforces"
+                style={{ height: "20px", width: "20px" }}
+                src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/hackerearth.svg"
+              />
+              <a href="https://www.hackerearth.com/@niket88">Hacker Earth</a>
+            </Rotate>
             <br />
             Beside these I am also active on competitions conducted by google,
             facebook, etc.
@@ -95,7 +115,9 @@ const App = () => {
           </div>
         </div>
         <div>
-          <div className="div2Title">Education</div>
+          <div className="div2Title">
+            <Zoom>Education</Zoom>
+          </div>
           <div
             className="row"
             style={{
@@ -124,7 +146,9 @@ const App = () => {
           </div>
         </div>
         <div>
-          <div className="div2Title">Contact Details</div>
+          <div className="div2Title">
+            <Zoom>Contact Details</Zoom>
+          </div>
           <div style={{ padding: "20px" }}>
             <b>Email: </b>niketagrawal777@gmail.com
             <br />
@@ -135,7 +159,9 @@ const App = () => {
           </div>
         </div>
         <div>
-          <div className="div2Title">Other Details</div>
+          <div className="div2Title">
+            <Zoom>Other Details</Zoom>
+          </div>
           <div style={{ padding: "20px" }}>
             <b>OS Used: </b> Windows, Kubantu(Linux)
             <br />
