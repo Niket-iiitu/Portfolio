@@ -2,7 +2,9 @@ import React from "react";
 import "./style.css";
 import Fade from "react-reveal/Fade";
 const Certificate = ({ url, title, img }) => {
-  var loc = "../src/certificate/" + img;
+  var loc =
+    "https://raw.githubusercontent.com/Niket-iiitu/Portfolio/main/src/certificate/" +
+    img;
   console.log(process.env.PUBLIC_URL);
   return (
     <div>
@@ -16,7 +18,7 @@ const Certificate = ({ url, title, img }) => {
                     <img
                       src={loc}
                       alt="Click to open"
-                      style={{ height: "250px", width: "250px" }}
+                      style={{ height: "300px", width: "400px" }}
                       onClick={() => {
                         window.open(url);
                       }}

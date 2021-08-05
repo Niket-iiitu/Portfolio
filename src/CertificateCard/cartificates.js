@@ -12,11 +12,45 @@ const CertificateSet = () => {
       }}
     >
       <Certificate
+        url="https://www.udemy.com/certificate/UC-1e2be787-6b96-4b46-adef-0967db84880d/"
+        title="Udemy C++"
+        img="UCPP.jpg"
+      />
+      <Certificate
+        url="https://www.udemy.com/certificate/UC-7e016d1c-6400-4496-90bf-b482a2bbe051/"
+        title="Udemy Java"
+        img="UJava.jpg"
+      />
+      <Certificate
+        url="https://www.the-cca.org/?watupro_view_certificate=1&taking_id=104906&id=1"
+        title="Java Level 1"
+        img="Java1.jpg"
+      />
+      <Certificate
+        url="https://www.the-cca.org/?watupro_view_certificate=1&taking_id=104906&id=1"
+        title="Java Level 2"
+        img="Java2.jpg"
+      />
+      <Certificate
+        url="https://udemy-certificate.s3.amazonaws.com/pdf/UC-b3eb82ce-da6a-4dc2-9c55-2f800343e759.pdf"
+        title="Android Studio"
+        img="Android.jpg"
+      />
+      <Certificate
+        url="https://udemy-certificate.s3.amazonaws.com/pdf/UC-3ce31dce-389a-4942-88a9-ffb828dfb5af.pdf"
+        title="Machine Learning"
+        img="ML.jpg"
+      />
+      <Certificate
+        url="https://udemy-certificate.s3.amazonaws.com/pdf/UC-3ce31dce-389a-4942-88a9-ffb828dfb5af.pdf"
+        title="Open CV"
+        img="OpenCV.jpg"
+      />
+      <Certificate
         url="https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/0000000000435bad"
         title="KickStart 2021"
         img="KS2021.jpg"
       />
-
       <Certificate
         url="https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/000000000019ffc6"
         title="Kick Start 2020"
