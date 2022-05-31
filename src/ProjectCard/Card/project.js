@@ -22,7 +22,7 @@ const ProjectCard = ({ title, language, description, link, url }) => {
                   sm={3}
                   className="col-sm"
                   style={{
-                    maxWidth: "300px",
+                    width: "300px",
                     height: "auto",
                   }}
                 >

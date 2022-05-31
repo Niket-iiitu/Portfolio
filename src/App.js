@@ -101,6 +101,7 @@ const App = () => {
             }}
           >
             <div style={{ width: "75%" }}>
+              <div style={{ paddingTop: "20px" }} />
               <Rotate top left>
                 <img
                   align="left"
@@ -122,7 +123,7 @@ const App = () => {
                 <a href="https://codeforces.com/profile/NIKET-777">
                   Code Forces
                 </a>
-                Max 1,335 Points gained, and planing for more.
+                1,400+ Points gained, and planing for more.
               </Rotate>
               <br />
               <Rotate top left>
@@ -133,7 +134,7 @@ const App = () => {
                   src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/leetcode.svg"
                 />
                 <a href="https://leetcode.com/NIKET_100/">LeeCode</a>
-                Max 1,558 Points gained, and working for more.
+                150+ questions solved and working for more.
               </Rotate>
               <br />
               <Rotate top left>
@@ -144,10 +145,10 @@ const App = () => {
                   src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/geeksforgeeks.svg"
                 />
                 <a href="https://leetcode.com/NIKET_100/">GeeksForFeeks</a>
-                +300 problems solved of various dificulty.
+                400+ problems solved of various dificulty.
               </Rotate>
               <br />
-              <Rotate top left>
+              {/* <Rotate top left>
                 <img
                   align="left"
                   alt="Nikets's Hacker Earth"
@@ -156,14 +157,14 @@ const App = () => {
                 />
                 <a href="https://www.hackerearth.com/@niket88">Hacker Earth</a>
                 Solving problems for extra practice.
-              </Rotate>
+              </Rotate> */}
               <br />
             </div>
             <div
               style={{
                 width: "25%",
                 display: "flex",
-                marginTop: "50px",
+                marginTop: "30px",
               }}
             >
               <img
@@ -210,8 +211,8 @@ const App = () => {
             <Zoom>Contact Details</Zoom>
           </div>
           <div style={{ padding: "20px" }}>
-            <b>Email: </b>niketagrawal777@gmail.com
-            <br />
+            {/* <b>Email: </b>niketagrawal777@gmail.com
+            <br /> */}
             <b>LinkedIn: </b> linkedin.com/in/niket-agrawal-baa183191
             <br />
             <b>Git Hub: </b> https://github.com/Niket-iiitu

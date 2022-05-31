@@ -1,17 +1,12 @@
 import React from "react";
 import "./style.css";
 import Roll from "react-reveal/Roll";
-import wallpaper from "../../images/BlueWallpaper.jpg";
+// import wallpaper from "../../images/BlueWallpaper.jpg";
 
-const ExpCard = ({ title, language, description, link, url }) => {
+const ExpCard = ({ title, language, description, duration }) => {
   return (
     <Roll left>
-      <div
-        onClick={() => {
-          window.open(url);
-        }}
-        title={"Click to Open"}
-      >
+      <div title={title}>
         <div className="container">
           <div className="row">
             <div className="HomeScreenAchievementsCard">
@@ -29,7 +24,7 @@ const ExpCard = ({ title, language, description, link, url }) => {
                     className="ProjectScreenContentE"
                     style={{ display: "flex" }}
                   >
-                    <div
+                    {/* <div
                       style={{
                         height: "100%",
                         width: "30%",
@@ -43,11 +38,11 @@ const ExpCard = ({ title, language, description, link, url }) => {
                         }}
                         alt="Experience"
                       />
-                    </div>
+                    </div> */}
                     <div
                       style={{
                         height: "100%",
-                        width: "70%",
+                        width: "100%",
                       }}
                     >
                       <div>
@@ -70,11 +65,14 @@ const ExpCard = ({ title, language, description, link, url }) => {
                           marginTop: "2%",
                         }}
                       >
+                        <h6>
+                          <p>Duration: {duration}</p>
+                        </h6>
                         <h6
                           style={{
                             fontWeight: "bold",
-                            textAlign: "left",
-                            paddingLeft: "10px",
+                            textAlign: "center",
+                            paddingLeft: "5px",
                             color: "orange",
                           }}
                         >
@@ -85,6 +83,7 @@ const ExpCard = ({ title, language, description, link, url }) => {
                             textAlign: "justify",
                             paddingLeft: "5px",
                             paddingRight: "5px",
+                            paddingTop: "10px",
                             color: "black",
                           }}
                         >
