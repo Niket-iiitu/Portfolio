@@ -9,9 +9,9 @@ const ProjectSet = () => {
         paddingLeft: "40px",
         paddingRight: "40px",
         alignItems: "center",
-        // display: "flex",
+        justifyContent: "center",
         alignContent: "center",
-        width: "100%",
+        width: "100vw",
       }}
     >
       <ProjectCard

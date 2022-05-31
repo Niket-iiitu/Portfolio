@@ -5,7 +5,7 @@ const Certificate = ({ url, title, img }) => {
   var loc =
     "https://raw.githubusercontent.com/Niket-iiitu/Portfolio/main/src/certificate/" +
     img;
-  console.log(process.env.PUBLIC_URL);
+  // console.log(process.env.PUBLIC_URL);
   return (
     <div>
       <Fade bottom>

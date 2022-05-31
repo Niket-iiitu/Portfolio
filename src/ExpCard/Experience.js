@@ -3,11 +3,17 @@ import ExpCard from "./Card/Exp";
 
 const ExpSet = () => {
   return (
-    <div>
+    <div
+      style={{
+        justifyContent: "center",
+        width: "100%",
+      }}
+    >
       <div
-        className="row"
+        // className="row"
         style={{
-          paddingLeft: "40px",
+          display: "flex",
+          paddingLeft: "60px",
           paddingRight: "40px",
           alignItems: "center",
           width: "100%",
@@ -17,6 +23,7 @@ const ExpSet = () => {
           title="Developer Intern"
           language="Node JS, Python, Mass Data Management, React JS, Postgres SQL, AWS EC2, AWS Lightsail, Material UI"
           duration="6 Months"
+          institute="AJVA FinTech Private Limited"
           description="This internship was conducted by AJVA FinTech private limited, and during this I worked on EC2 instances running batch process and 
           improved their efficiency form previous 10K entries with 60% success to 30K entries with approx. 
           95% success. Machines were able to run for 3 times longer without any restart. 
@@ -27,9 +34,9 @@ const ExpSet = () => {
         />
       </div>
       <div
-        className="row"
         style={{
-          paddingLeft: "40px",
+          display: "flex",
+          paddingLeft: "60px",
           paddingRight: "40px",
           alignItems: "center",
           width: "100%",
@@ -39,6 +46,7 @@ const ExpSet = () => {
           title="MERN Intern"
           language="Node JS, React, Redux, Bootstrap, Mongo DB, Material UI"
           duration="5 Months"
+          institute="IIIT Una"
           description="Started during COVID-19 with a goal for creating a dedicated online learning platform 
         for institute(IIITU). A team was arranged to work from backend, frontend, database management, etc.
         The task was to create a site that not just have features of a proper online classroom but shold contain 

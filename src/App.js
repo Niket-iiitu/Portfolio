@@ -8,6 +8,7 @@ import CertificateSet from "./CertificateCard/cartificates";
 import ExpSet from "./ExpCard/Experience";
 import Zoom from "react-reveal/Zoom";
 import Rotate from "react-reveal/Rotate";
+import LightSpeed from "react-reveal/LightSpeed";
 import "./style.css";
 
 const App = () => {
@@ -36,6 +37,49 @@ const App = () => {
           </center>
         </div>
         <div>
+          <div>
+            <div className="div2Title">
+              <Zoom>Education</Zoom>
+            </div>
+            <div
+              // className="row"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "left",
+                paddingTop: "20px",
+                paddingBottom: "20px",
+              }}
+            >
+              <div style={{ paddingLeft: "10vw" }}>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Iiit-una-logo.png/220px-Iiit-una-logo.png"
+                  alt="IIITU logo"
+                  style={{
+                    height: "250px",
+                    width: "250px",
+                    marginRight: "5vw",
+                  }}
+                />
+              </div>
+
+              <div
+                style={{
+                  paddingLeft: "20px",
+                  fontSize: "24px",
+                  color: "rgb(105,105,105)",
+                }}
+              >
+                <LightSpeed left cascade>
+                  <b>Institute: </b>Indian Institute of Information Technology
+                  Una
+                  <b>Branch: </b>Computer Science and Engineering
+                  <b>Year: </b>2019-23
+                  <b>Status: </b>Fourth Year
+                </LightSpeed>
+              </div>
+            </div>
+          </div>
           <div className="div2Title">
             <Zoom>Skill Set</Zoom>
           </div>
@@ -71,6 +115,7 @@ const App = () => {
               alignItems: "center",
               paddingTop: "40px",
               paddingBottom: "40px",
+              paddingTop: "40px",
             }}
           >
             <ProjectSet />
@@ -164,39 +209,7 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div>
-          <div className="div2Title">
-            <Zoom>Education</Zoom>
-          </div>
-          <div
-            // className="row"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              paddingTop: "40px",
-              paddingBottom: "40px",
-            }}
-          >
-            <div style={{ paddingLeft: "40px" }}>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Iiit-una-logo.png/220px-Iiit-una-logo.png"
-                alt="IIITU logo"
-                style={{ height: "100px", width: "100px" }}
-              />
-            </div>
-            <div style={{ paddingLeft: "20px" }}>
-              <b>Institute: </b> Indian Institute of Information Technology Una
-              <br />
-              <b>Branch: </b> Computer Science and Engineering (Honors)
-              <br />
-              <b>Year: </b> 2019-23
-              <br />
-              <b>Status: </b> Third Year
-              <br />
-            </div>
-          </div>
-        </div>
+
         <div>
           <div className="div2Title">
             <Zoom>Contact Details</Zoom>

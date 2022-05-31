@@ -9,6 +9,9 @@ const CertificateSet = () => {
         paddingLeft: "40px",
         paddingRight: "40px",
         alignItems: "center",
+        width: "100vw",
+        justifyContent: "center",
+        // display: "flex",
       }}
     >
       <Certificate

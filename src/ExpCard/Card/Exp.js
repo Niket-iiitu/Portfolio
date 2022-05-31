@@ -1,12 +1,9 @@
 import React from "react";
 import "./style.css";
 import Fade from "react-reveal/Fade";
-// import Roll from "react-reveal/Roll";
-// import wallpaper from "../../images/BlueWallpaper.jpg";
 
-const ExpCard = ({ title, language, description, duration }) => {
+const ExpCard = ({ title, language, description, duration, institute }) => {
   return (
-    // <Roll left>
     <Fade top cascade>
       <div title={title}>
         <div className="container">
@@ -26,21 +23,6 @@ const ExpCard = ({ title, language, description, duration }) => {
                     className="ProjectScreenContentE"
                     style={{ display: "flex" }}
                   >
-                    {/* <div
-                      style={{
-                        height: "100%",
-                        width: "30%",
-                      }}
-                    >
-                      <img
-                        src={wallpaper}
-                        style={{
-                          height: "100%",
-                          width: "100%",
-                        }}
-                        alt="Experience"
-                      />
-                    </div> */}
                     <div
                       style={{
                         height: "100%",
@@ -52,9 +34,10 @@ const ExpCard = ({ title, language, description, duration }) => {
                           style={{
                             height: "auto",
                             alignItems: "center",
-                            borderBottom: "1px solid grey",
-                            color: "rgb(62,108,255)",
+                            // borderBottom: "1px solid grey",
+                            color: "rgb(105,105,105)",
                             fontWeight: "bold",
+                            paddingTop: "10px",
                           }}
                         >
                           {title}
@@ -67,18 +50,50 @@ const ExpCard = ({ title, language, description, duration }) => {
                           marginTop: "2%",
                         }}
                       >
-                        <h6>
-                          <p>Duration: {duration}</p>
-                        </h6>
+                        <div
+                          style={{
+                            width: "100%",
+                            display: "flex",
+                          }}
+                        >
+                          <div
+                            style={{
+                              width: "50%",
+                              display: "flex",
+                              justifyContent: "center",
+                              color: "rgb(128,128,128)",
+                            }}
+                          >
+                            <h6>
+                              <b>
+                                <p>Company: {institute}</p>
+                              </b>
+                            </h6>
+                          </div>
+                          <div
+                            style={{
+                              width: "50%",
+                              display: "flex",
+                              justifyContent: "center",
+                              color: "rgb(128,128,128)",
+                            }}
+                          >
+                            <h6>
+                              <b>
+                                <p>Duration: {duration}</p>
+                              </b>
+                            </h6>
+                          </div>
+                        </div>
                         <h6
                           style={{
                             fontWeight: "bold",
-                            textAlign: "center",
+                            textAlign: "left",
                             paddingLeft: "5px",
-                            color: "orange",
+                            color: "rgb(255,69,0)",
                           }}
                         >
-                          Skills Used: {language}
+                          Teck Stack Used: {language}
                         </h6>
                         <h6
                           style={{
@@ -101,10 +116,7 @@ const ExpCard = ({ title, language, description, duration }) => {
         </div>
       </div>
     </Fade>
-    // </Roll>
   );
 };
 
 export default ExpCard;
-
-// backgroundImage: `url(${wallpaper})`,backgroundSize: "100% 100%",

@@ -24,9 +24,3 @@ const SkillCard = ({ url, title }) => {
   );
 };
 export default SkillCard;
-// <Card className={classes.card}>
-//   <CardMedia className={classes.media} image={url}></CardMedia>
-//   <div div class={classes.overlay}>
-//     <Typography variant="h6">{title}</Typography>
-//   </div>
-// </Card>

@@ -19,16 +19,18 @@
 }
 
 .div2Title {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
   font-family: "Trebuchet MS";
-  color: white;
+  color: black;
   align-items: center;
   text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: red;
   /* padding-top: 10px; */
   /* border-bottom: 1px solid rgb(255, 5, 5); */
-  border-bottom-style: solid;
-  background-color: rgb(5, 155, 255);
-  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
-  border-color: rgb(5, 155, 255);
+  /* border-bottom-style: solid; */
+  /* background-color: rgb(5, 155, 255); */
+  /* box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2); */
+  /* border-color: rgb(5, 155, 255); */
 }
