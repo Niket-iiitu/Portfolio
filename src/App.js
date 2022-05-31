@@ -148,17 +148,6 @@ const App = () => {
                 400+ problems solved of various dificulty.
               </Rotate>
               <br />
-              {/* <Rotate top left>
-                <img
-                  align="left"
-                  alt="Nikets's Hacker Earth"
-                  style={{ height: "20px", width: "20px", marginRight: "8px" }}
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/hackerearth.svg"
-                />
-                <a href="https://www.hackerearth.com/@niket88">Hacker Earth</a>
-                Solving problems for extra practice.
-              </Rotate> */}
-              <br />
             </div>
             <div
               style={{
@@ -180,11 +169,13 @@ const App = () => {
             <Zoom>Education</Zoom>
           </div>
           <div
-            className="row"
+            // className="row"
             style={{
+              display: "flex",
               alignItems: "center",
-              paddingTop: "20px",
-              paddingBottom: "20px",
+              justifyContent: "center",
+              paddingTop: "40px",
+              paddingBottom: "40px",
             }}
           >
             <div style={{ paddingLeft: "40px" }}>
@@ -210,24 +201,58 @@ const App = () => {
           <div className="div2Title">
             <Zoom>Contact Details</Zoom>
           </div>
-          <div style={{ padding: "20px" }}>
-            {/* <b>Email: </b>niketagrawal777@gmail.com
-            <br /> */}
-            <b>LinkedIn: </b> linkedin.com/in/niket-agrawal-baa183191
-            <br />
-            <b>Git Hub: </b> https://github.com/Niket-iiitu
-            <br />
-          </div>
-        </div>
-        <div>
-          <div className="div2Title">
-            <Zoom>Other Details</Zoom>
-          </div>
-          <div style={{ padding: "20px" }}>
-            <b>OS Used: </b> Windows, Kubantu(Linux)
-            <br />
-            <b>Languages: </b> English, Hindi
-            <br />
+          <div
+            style={{
+              display: "flex",
+              width: "100%",
+            }}
+          >
+            <div
+              style={{
+                padding: "20px",
+                paddingLeft: "15%",
+                fontSize: "15px",
+                width: "50%",
+              }}
+            >
+              <img
+                align="left"
+                alt="Nikets's Codeforces"
+                style={{ height: "25px", width: "25px", marginRight: "8px" }}
+                src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/linkedin.svg"
+              />
+              <b>LinkedIn: </b>{" "}
+              <a href="https://www.linkedin.com/in/niket-agrawal-developer/">
+                Click Here
+              </a>
+              <br />
+              <div style={{ paddingTop: "20px" }} />
+              <img
+                align="left"
+                alt="Nikets's Codeforces"
+                style={{ height: "25px", width: "25px", marginRight: "8px" }}
+                src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/geeksforgeeks.svg"
+              />
+              <b>Git Hub: </b>{" "}
+              <a href="https://github.com/Niket-iiitu">Click Here</a>
+              <br />
+            </div>
+
+            <div
+              style={{
+                padding: "20px",
+                paddingLeft: "20%",
+                width: "50%",
+                paddingTop: "20px",
+              }}
+            >
+              <b>OS Used: </b> Windows, Kubantu(Linux)
+              <br />
+              <b>Languages: </b> English, Hindi
+              <br />
+              <b>Nationality: </b> Indian
+              <br />
+            </div>
           </div>
         </div>
       </main>

@@ -1,11 +1,13 @@
 import React from "react";
 import "./style.css";
-import Roll from "react-reveal/Roll";
+import Fade from "react-reveal/Fade";
+// import Roll from "react-reveal/Roll";
 // import wallpaper from "../../images/BlueWallpaper.jpg";
 
 const ExpCard = ({ title, language, description, duration }) => {
   return (
-    <Roll left>
+    // <Roll left>
+    <Fade top cascade>
       <div title={title}>
         <div className="container">
           <div className="row">
@@ -98,7 +100,8 @@ const ExpCard = ({ title, language, description, duration }) => {
           </div>
         </div>
       </div>
-    </Roll>
+    </Fade>
+    // </Roll>
   );
 };
 
