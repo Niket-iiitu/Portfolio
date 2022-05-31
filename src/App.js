@@ -107,6 +107,101 @@ const App = () => {
           >
             <ExpSet />
           </div>
+          <div>
+            <div className="div2Title">
+              <Zoom>Competitive Programming</Zoom>
+            </div>
+            <div
+              style={{
+                paddingLeft: "70px",
+                paddingBottom: "10px",
+                paddingTop: "20px",
+                display: "flex",
+              }}
+            >
+              <div style={{ width: "75%" }}>
+                <div style={{ paddingTop: "20px" }} />
+                <Rotate top left>
+                  <img
+                    align="left"
+                    alt="Nikets's Codechef"
+                    style={{
+                      height: "20px",
+                      width: "20px",
+                      marginRight: "8px",
+                    }}
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/codechef.svg"
+                  />
+                  <a href="https://www.codechef.com/users/niket999">
+                    Code Chef
+                  </a>
+                  Currently a 4 star coder and now focussing on short
+                  challenges.
+                </Rotate>
+                <br />
+                <Rotate top left>
+                  <img
+                    align="left"
+                    alt="Nikets's Codeforces"
+                    style={{
+                      height: "20px",
+                      width: "20px",
+                      marginRight: "8px",
+                    }}
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/codeforces.svg"
+                  />
+                  <a href="https://codeforces.com/profile/NIKET-777">
+                    Code Forces
+                  </a>
+                  1,400+ Points gained, and planing for more.
+                </Rotate>
+                <br />
+                <Rotate top left>
+                  <img
+                    align="left"
+                    alt="Nikets's LeeTCode"
+                    style={{
+                      height: "20px",
+                      width: "20px",
+                      marginRight: "8px",
+                    }}
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/leetcode.svg"
+                  />
+                  <a href="https://leetcode.com/NIKET_100/">LeeCode</a>
+                  150+ questions solved and working for more.
+                </Rotate>
+                <br />
+                <Rotate top left>
+                  <img
+                    align="left"
+                    alt="Nikets's GeeksForGeeks"
+                    style={{
+                      height: "20px",
+                      width: "20px",
+                      marginRight: "8px",
+                    }}
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/geeksforgeeks.svg"
+                  />
+                  <a href="https://leetcode.com/NIKET_100/">GeeksForFeeks</a>
+                  400+ problems solved of various dificulty.
+                </Rotate>
+                <br />
+              </div>
+              <div
+                style={{
+                  width: "25%",
+                  display: "flex",
+                  marginTop: "30px",
+                }}
+              >
+                <img
+                  src={CodeWallpaper}
+                  style={{ height: "250px", width: "250px" }}
+                  alt="Competitive Programming"
+                />
+              </div>
+            </div>
+          </div>
           <div className="div2Title">
             <Zoom>Major Projects</Zoom>
           </div>
@@ -115,7 +210,6 @@ const App = () => {
               alignItems: "center",
               paddingTop: "40px",
               paddingBottom: "40px",
-              paddingTop: "40px",
             }}
           >
             <ProjectSet />
@@ -133,83 +227,6 @@ const App = () => {
         >
           <CertificateSet />
         </div>
-        <div>
-          <div className="div2Title">
-            <Zoom>Competitive Programming</Zoom>
-          </div>
-          <div
-            style={{
-              paddingLeft: "40px",
-              paddingBottom: "10px",
-              paddingTop: "20px",
-              display: "flex",
-            }}
-          >
-            <div style={{ width: "75%" }}>
-              <div style={{ paddingTop: "20px" }} />
-              <Rotate top left>
-                <img
-                  align="left"
-                  alt="Nikets's Codechef"
-                  style={{ height: "20px", width: "20px", marginRight: "8px" }}
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/codechef.svg"
-                />
-                <a href="https://www.codechef.com/users/niket999">Code Chef</a>
-                Currently a 4 star coder and now focussing on short challenges.
-              </Rotate>
-              <br />
-              <Rotate top left>
-                <img
-                  align="left"
-                  alt="Nikets's Codeforces"
-                  style={{ height: "20px", width: "20px", marginRight: "8px" }}
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/codeforces.svg"
-                />
-                <a href="https://codeforces.com/profile/NIKET-777">
-                  Code Forces
-                </a>
-                1,400+ Points gained, and planing for more.
-              </Rotate>
-              <br />
-              <Rotate top left>
-                <img
-                  align="left"
-                  alt="Nikets's LeeTCode"
-                  style={{ height: "20px", width: "20px", marginRight: "8px" }}
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/leetcode.svg"
-                />
-                <a href="https://leetcode.com/NIKET_100/">LeeCode</a>
-                150+ questions solved and working for more.
-              </Rotate>
-              <br />
-              <Rotate top left>
-                <img
-                  align="left"
-                  alt="Nikets's GeeksForGeeks"
-                  style={{ height: "20px", width: "20px", marginRight: "8px" }}
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/geeksforgeeks.svg"
-                />
-                <a href="https://leetcode.com/NIKET_100/">GeeksForFeeks</a>
-                400+ problems solved of various dificulty.
-              </Rotate>
-              <br />
-            </div>
-            <div
-              style={{
-                width: "25%",
-                display: "flex",
-                marginTop: "30px",
-              }}
-            >
-              <img
-                src={CodeWallpaper}
-                style={{ height: "250px", width: "250px" }}
-                alt="Competitive Programming"
-              />
-            </div>
-          </div>
-        </div>
-
         <div>
           <div className="div2Title">
             <Zoom>Contact Details</Zoom>

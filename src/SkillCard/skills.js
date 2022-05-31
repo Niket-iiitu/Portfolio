@@ -10,6 +10,8 @@ const SkillSet = () => {
         paddingLeft: "40px",
         paddingRight: "40px",
         alignItems: "center",
+        justifyContent: "center",
+        width: "100vw",
       }}
     >
       <SkillCard
