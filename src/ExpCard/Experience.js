@@ -22,7 +22,7 @@ const ExpSet = () => {
         <ExpCard
           title="Developer Intern"
           language="Node JS, Python, Mass Data Management, React JS, Postgres SQL, AWS EC2, AWS Lightsail, Material UI"
-          duration="6 Months"
+          duration="6 Months (Dec 2021-Jun 2022)"
           institute="AJVA FinTech Private Limited"
           description="This internship was conducted by AJVA FinTech private limited, and during this I worked on EC2 instances running batch process and 
           improved their efficiency form previous 10K entries with 60% success to 30K entries with approx. 
@@ -45,7 +45,7 @@ const ExpSet = () => {
         <ExpCard
           title="MERN Intern"
           language="Node JS, React, Redux, Bootstrap, Mongo DB, Material UI"
-          duration="5 Months"
+          duration="5 Months (Mar 2021-Jul 2021)"
           institute="IIIT Una"
           description="Started during COVID-19 with a goal for creating a dedicated online learning platform 
         for institute(IIITU). A team was arranged to work from backend, frontend, database management, etc.
