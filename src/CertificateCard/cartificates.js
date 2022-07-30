@@ -24,7 +24,11 @@ const CertificateSet = () => {
         title="GFG DSA"
         img="GFGDSA.jpg"
       />
-
+      <Certificate
+        url="https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/00000000008caba4"
+        title="KickStart 2022"
+        img="KS2022.jpg"
+      />
       <Certificate
         url="https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/0000000000435bad"
         title="KickStart 2021"
