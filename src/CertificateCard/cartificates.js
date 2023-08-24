@@ -24,7 +24,7 @@ const CertificateSet = () => {
         title="GFG DSA"
         img="GFGDSA.jpg"
       />
-      <Certificate
+      {/* <Certificate
         url="https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/00000000008caba4"
         title="KickStart 2022"
         img="KS2022.jpg"
@@ -48,13 +48,13 @@ const CertificateSet = () => {
         url="https://codingcompetitions.withgoogle.com/codejam/certificate/summary/00000000001857b3"
         title="Code Jam 2020"
         img="CJ2020.jpg"
-      />
+      /> */}
       {/* <Certificate
         url="https://www.udemy.com/certificate/UC-1e2be787-6b96-4b46-adef-0967db84880d/"
         title="Udemy C++"
         img="UCPP.jpg"
       /> */}
-      <Certificate
+      {/* <Certificate
         url="https://www.udemy.com/certificate/UC-7e016d1c-6400-4496-90bf-b482a2bbe051/"
         title="Udemy Java"
         img="UJava.jpg"
@@ -83,7 +83,7 @@ const CertificateSet = () => {
         url="https://udemy-certificate.s3.amazonaws.com/pdf/UC-3ce31dce-389a-4942-88a9-ffb828dfb5af.pdf"
         title="Open CV"
         img="OpenCV.jpg"
-      />
+      /> */}
     </div>
   );
 };

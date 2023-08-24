@@ -25,8 +25,9 @@
   color: black;
   align-items: center;
   text-align: center;
-  text-decoration-line: underline;
-  text-decoration-color: red;
+  padding-top: 30px;
+  /* text-decoration-line: underline; */
+  /* text-decoration-color: red; */
   /* padding-top: 10px; */
   /* border-bottom: 1px solid rgb(255, 5, 5); */
   /* border-bottom-style: solid; */
