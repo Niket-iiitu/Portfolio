@@ -20,8 +20,26 @@ const ExpSet = () => {
         }}
       >
         <ExpCard
+          title="Software Engineering Intern"
+          language="C++, Node JS, Python, Mass Data Management, React JS, Mongo DB, Express JS"
+          duration="3 Months (May 2023-Jul 2023)"
+          institute="CAD CAM EXPRESS"
+          description="I have initiated and led crucial IT projects within my company, including the development of in-house systems such as the Student Portal, Income and Payment Management System, and Inventory Management System. These systems streamlined operations and improved efficiency. I also orchestrated the migration of our company website from PHP and MySQL to the MERN stack, enhancing performance, scalability, and maintainability. Additionally, I optimized existing services, identifying and eliminating performance bottlenecks, reducing resource consumption, and ensuring code efficiency. These efforts resulted in cost savings and enhanced overall system performance, aligning our technology infrastructure with evolving business needs. My track record reflects a strong commitment to leveraging technology for business growth, making me a valuable asset to any progressive organization."
+        />
+      </div>
+      <div
+        // className="row"
+        style={{
+          display: "flex",
+          paddingLeft: "60px",
+          paddingRight: "40px",
+          alignItems: "center",
+          width: "100%",
+        }}
+      >
+        <ExpCard
           title="Developer Intern"
-          language="Node JS, Python, Mass Data Management, React JS, Postgres SQL, AWS EC2, AWS Lightsail, Material UI"
+          language="Node JS, Python, Mass Data Management, React JS, Express JS, Postgres SQL, AWS EC2, AWS Lightsail, Material UI"
           duration="6 Months (Dec 2021-Jun 2022)"
           institute="AJVA FinTech Private Limited"
           description="This internship was conducted by AJVA FinTech private limited, and during this I worked on EC2 instances running batch process and 

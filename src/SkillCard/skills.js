@@ -19,18 +19,6 @@ const SkillSet = () => {
         title="Mongo DB"
       />
       <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png"
-        title="AWS"
-      />
-      <SkillCard
-        url="https://raw.githubusercontent.com/Niket-iiitu/Portfolio/main/src/certificate/EC2.png"
-        title="EC2"
-      />
-      <SkillCard
-        url="https://raw.githubusercontent.com/Niket-iiitu/Portfolio/main/src/certificate/Lightsail.png"
-        title="Lightsail"
-      />
-      <SkillCard
         url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png"
         title="SQL"
       />
@@ -86,7 +74,7 @@ const SkillSet = () => {
         url="https://www.herokucdn.com/favicons/icon.svg"
         title="Heroku"
       />
-      <SkillCard
+      {/* <SkillCard
         url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
         title="Java"
       />
@@ -110,7 +98,7 @@ const SkillSet = () => {
       <SkillCard
         url="https://www.pngfind.com/pngs/m/683-6838440_machine-learning-icon-png-artificial-intelligence-logo-png.png"
         title="ML"
-      />
+      /> */}
       <SkillCard
         url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"
         title="Redux"
@@ -118,6 +106,18 @@ const SkillSet = () => {
       <SkillCard
         url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
         title="Firebase"
+      />
+      <SkillCard
+        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png"
+        title="AWS"
+      />
+      <SkillCard
+        url="https://raw.githubusercontent.com/Niket-iiitu/Portfolio/main/src/certificate/EC2.png"
+        title="EC2"
+      />
+      <SkillCard
+        url="https://raw.githubusercontent.com/Niket-iiitu/Portfolio/main/src/certificate/Lightsail.png"
+        title="Lightsail"
       />
     </div>
     // </div>

@@ -124,6 +124,38 @@ const App = () => {
                 <Rotate top left>
                   <img
                     align="left"
+                    alt="Nikets's GeeksForGeeks"
+                    style={{
+                      height: "20px",
+                      width: "20px",
+                      marginRight: "8px",
+                    }}
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/geeksforgeeks.svg"
+                  />
+                  <a href="https://auth.geeksforgeeks.org/user/niketagrawal100/practice">
+                    Geeks for Geeks
+                  </a>
+                  700+ problems solved of various dificulty.
+                </Rotate>
+                <br />
+                <Rotate top left>
+                  <img
+                    align="left"
+                    alt="Nikets's LeeTCode"
+                    style={{
+                      height: "20px",
+                      width: "20px",
+                      marginRight: "8px",
+                    }}
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/leetcode.svg"
+                  />
+                  <a href="https://leetcode.com/NIKET_100/">LeeCode</a>
+                  300+ questions solved and working for more.
+                </Rotate>
+                <br />
+                <Rotate top left>
+                  <img
+                    align="left"
                     alt="Nikets's Codechef"
                     style={{
                       height: "20px",
@@ -154,36 +186,6 @@ const App = () => {
                     Code Forces
                   </a>
                   1,400+ Points gained, and planing for more.
-                </Rotate>
-                <br />
-                <Rotate top left>
-                  <img
-                    align="left"
-                    alt="Nikets's LeeTCode"
-                    style={{
-                      height: "20px",
-                      width: "20px",
-                      marginRight: "8px",
-                    }}
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/leetcode.svg"
-                  />
-                  <a href="https://leetcode.com/NIKET_100/">LeeCode</a>
-                  150+ questions solved and working for more.
-                </Rotate>
-                <br />
-                <Rotate top left>
-                  <img
-                    align="left"
-                    alt="Nikets's GeeksForGeeks"
-                    style={{
-                      height: "20px",
-                      width: "20px",
-                      marginRight: "8px",
-                    }}
-                    src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/geeksforgeeks.svg"
-                  />
-                  <a href="https://leetcode.com/NIKET_100/">GeeksForFeeks</a>
-                  400+ problems solved of various dificulty.
                 </Rotate>
                 <br />
               </div>
@@ -261,7 +263,7 @@ const App = () => {
                 align="left"
                 alt="Nikets's Codeforces"
                 style={{ height: "25px", width: "25px", marginRight: "8px" }}
-                src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/geeksforgeeks.svg"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/github.svg"
               />
               <b>Git Hub: </b>{" "}
               <a href="https://github.com/Niket-iiitu">Click Here</a>
@@ -283,6 +285,24 @@ const App = () => {
               <b>Nationality: </b> Indian
               <br />
             </div>
+          </div>
+        </div>
+        <div>
+          <div
+            style={{
+              padding: "20px",
+              width: "100%",
+              paddingTop: "20px",
+              display: "flex",
+              alignContent: "center",
+              justifyContent: "center",
+            }}
+          >
+            <a href="https://drive.google.com/file/d/12RHwq7m2Ju3BQ0s1eSOsj_hjp0tpAlqW/view">
+              <p>
+                <h4>Click here to open RESUME</h4>
+              </p>
+            </a>
           </div>
         </div>
       </main>
