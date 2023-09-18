@@ -1,5 +1,6 @@
 import React from "react";
 import SkillCard from "./Card/skill";
+import SkillCard2 from "./Card/skill2";
 
 const SkillSet = () => {
   return (
@@ -14,64 +15,79 @@ const SkillSet = () => {
         width: "100vw",
       }}
     >
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+        location="/icons/mongodb.jpeg"
         title="Mongo DB"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png"
+        location="/icons/sql.jpeg"
         title="SQL"
       />
-      <SkillCard
-        url="https://w7.pngwing.com/pngs/125/653/png-transparent-algorithms-data-structures-programs-data-structures-and-algorithms-introduction-to-algorithms-others-miscellaneous-angle-computer-science.png"
+      <SkillCard2
+        // url="https://w7.pngwing.com/pngs/125/653/png-transparent-algorithms-data-structures-programs-data-structures-and-algorithms-introduction-to-algorithms-others-miscellaneous-angle-computer-science.png"
+        location="/icons/dsa.png"
         title="DSA"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"
+        location="/icons/cpp.png"
         title="C++"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
+        location="/icons/python.png"
         title="Python"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
+        location="/icons/nodejs.png"
         title="Node JS"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+        location="/icons/react.png"
         title="React"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+        location="/icons/html.png"
         title="HTML"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+        location="/icons/css.png"
         title="CSS"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
+        location="/icons/git.png"
         title="Git"
       />
-      <SkillCard
-        url="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+      <SkillCard2
+        // url="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+        location="/icons/github.png"
         title="Git Hub"
       />
-      <SkillCard
-        url="https://docs.cloudron.io/img/githubpages-logo.png"
+      <SkillCard2
+        // url="https://docs.cloudron.io/img/githubpages-logo.png"
+        location="/icons/githubpages.png"
         title="Git Pages"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"
+        location="/icons/bootstrap.png"
         title="Bootstrap"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/Niket-iiitu/Portfolio/main/src/certificate/VSCode.jpg"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/Niket-iiitu/Portfolio/main/src/certificate/VSCode.jpg"
+        location="/icons/vscode.jpg"
         title="VS Code"
       />
-      <SkillCard
-        url="https://www.herokucdn.com/favicons/icon.svg"
+      <SkillCard2
+        // url="https://www.herokucdn.com/favicons/icon.svg"
+        location="/icons/heroku.svg"
         title="Heroku"
       />
       {/* <SkillCard
@@ -99,24 +115,29 @@ const SkillSet = () => {
         url="https://www.pngfind.com/pngs/m/683-6838440_machine-learning-icon-png-artificial-intelligence-logo-png.png"
         title="ML"
       /> */}
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"
+        location="/icons/redux.png"
         title="Redux"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
+        location="/icons/firebase.png"
         title="Firebase"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png"
+        location="/icons/aws.png"
         title="AWS"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/Niket-iiitu/Portfolio/main/src/certificate/EC2.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/Niket-iiitu/Portfolio/main/src/certificate/EC2.png"
+        location="/icons/EC2.png"
         title="EC2"
       />
-      <SkillCard
-        url="https://raw.githubusercontent.com/Niket-iiitu/Portfolio/main/src/certificate/Lightsail.png"
+      <SkillCard2
+        // url="https://raw.githubusercontent.com/Niket-iiitu/Portfolio/main/src/certificate/Lightsail.png"
+        location="/icons/lightsail.png"
         title="Lightsail"
       />
     </div>
