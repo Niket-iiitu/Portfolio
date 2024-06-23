@@ -1,24 +1,11 @@
 import React from "react";
 import ExpCard from "./Card/Exp";
+import "./Experience.css";
 
 const ExpSet = () => {
   return (
-    <div
-      style={{
-        justifyContent: "center",
-        width: "100%",
-      }}
-    >
-      <div
-        // className="row"
-        style={{
-          display: "flex",
-          paddingLeft: "60px",
-          paddingRight: "40px",
-          alignItems: "center",
-          width: "100%",
-        }}
-      >
+    <div className="ExperienceBody">
+      <div className="ExperienceCard">
         <ExpCard
           title="Software Engineering Intern"
           language="C++, Node JS, Python, Mass Data Management, React JS, Mongo DB, Express JS"
@@ -27,16 +14,7 @@ const ExpSet = () => {
           description="I have initiated and led crucial IT projects within my company, including the development of in-house systems such as the Student Portal, Income and Payment Management System, and Inventory Management System. These systems streamlined operations and improved efficiency. I also orchestrated the migration of our company website from PHP and MySQL to the MERN stack, enhancing performance, scalability, and maintainability. Additionally, I optimized existing services, identifying and eliminating performance bottlenecks, reducing resource consumption, and ensuring code efficiency. These efforts resulted in cost savings and enhanced overall system performance, aligning our technology infrastructure with evolving business needs. My track record reflects a strong commitment to leveraging technology for business growth, making me a valuable asset to any progressive organization."
         />
       </div>
-      <div
-        // className="row"
-        style={{
-          display: "flex",
-          paddingLeft: "60px",
-          paddingRight: "40px",
-          alignItems: "center",
-          width: "100%",
-        }}
-      >
+      <div className="ExperienceCard">
         <ExpCard
           title="Developer Intern"
           language="Node JS, Python, Mass Data Management, React JS, Express JS, Postgres SQL, AWS EC2, AWS Lightsail, Material UI"
@@ -51,15 +29,7 @@ const ExpSet = () => {
           required data, while still maintaining a real-time (< 0.5 sec delay) performance and low load on server side."
         />
       </div>
-      <div
-        style={{
-          display: "flex",
-          paddingLeft: "60px",
-          paddingRight: "40px",
-          alignItems: "center",
-          width: "100%",
-        }}
-      >
+      <div className="ExperienceCard">
         <ExpCard
           title="MERN Intern"
           language="Node JS, React, Redux, Bootstrap, Mongo DB, Material UI"
