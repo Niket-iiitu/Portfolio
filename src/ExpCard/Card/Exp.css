@@ -1,0 +1,56 @@
+.ExperienceHeading{
+    height: auto;
+    align-items: center;
+    /* border-bottom: 1px solid grey; */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.ExperienceSubheading{
+    display: flex;
+    justify-content: center;
+    color: rgb(5, 6, 104);
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.ExperienceBody{
+    height: 100%;
+}
+
+.ExperienceContent{
+    margin-top: 20px;
+    height: 100%;
+}
+
+.ExperienceTeckStack{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px;
+    font-size: 19px;
+    color: rgb(14, 16, 126);
+}
+
+.ExperienceDescription{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.ExperienceDescription li{
+    margin-bottom: 10px;
+}
+
+.description-list li:last-child {
+    margin-bottom: 0; /* Ensure no extra margin after the last item */
+}

@@ -7,41 +7,27 @@ const ExpSet = () => {
     <div className="ExperienceBody">
       <div className="ExperienceCard">
         <ExpCard
-          title="Software Engineering Intern"
-          language="C++, Node JS, Python, Mass Data Management, React JS, Mongo DB, Express JS"
-          duration="3 Months (May 2023-Jul 2023)"
-          institute="CAD CAM EXPRESS"
-          description="I have initiated and led crucial IT projects within my company, including the development of in-house systems such as the Student Portal, Income and Payment Management System, and Inventory Management System. These systems streamlined operations and improved efficiency. I also orchestrated the migration of our company website from PHP and MySQL to the MERN stack, enhancing performance, scalability, and maintainability. Additionally, I optimized existing services, identifying and eliminating performance bottlenecks, reducing resource consumption, and ensuring code efficiency. These efforts resulted in cost savings and enhanced overall system performance, aligning our technology infrastructure with evolving business needs. My track record reflects a strong commitment to leveraging technology for business growth, making me a valuable asset to any progressive organization."
+          title="Software Developer"
+          language="Java, Spring, Maven, React JS, SQL"
+          duration="Oct 2023 - Present"
+          institute="Jio"
+          description={[
+            "Improved stability and performance for the Jio Enterprise Portal.",
+            "Migrated projects from JSP and JavaScript to React for improved performance and maintainability.",
+            "Developed a mechanism for bandwidth changes in existing subscriptions, enabling the portal to gather all available options, display the most viable ones, and facilitate approval by relevant officials based on the chosen solution.",
+          ]}
         />
       </div>
       <div className="ExperienceCard">
         <ExpCard
           title="Developer Intern"
-          language="Node JS, Python, Mass Data Management, React JS, Express JS, Postgres SQL, AWS EC2, AWS Lightsail, Material UI"
-          duration="6 Months (Dec 2021-Jun 2022)"
-          institute="AJVA FinTech Private Limited"
-          description="This internship was conducted by AJVA FinTech private limited, and during this I worked on EC2 instances running batch process and 
-          improved their efficiency form previous 10K entries with 60% success to 30K entries with approx. 
-          95% success. Machines were able to run for 3 times longer without any restart. 
-          Required specs reduce to micro instance. I also programmed a MERN based 3 tier websites, for monitoring, filtering and downloading data. This 
-          site is used to filter and download 100K+, from a DB with multiple tables, with each processing 1+ Crore entries connected through foreign keys, 
-          in one-to-many relation. Mass data management and interactive UI were innovatively integrated in a way that the user can effortlessly find 
-          required data, while still maintaining a real-time (< 0.5 sec delay) performance and low load on server side."
-        />
-      </div>
-      <div className="ExperienceCard">
-        <ExpCard
-          title="MERN Intern"
-          language="Node JS, React, Redux, Bootstrap, Mongo DB, Material UI"
-          duration="5 Months (Mar 2021-Jul 2021)"
-          institute="IIIT Una"
-          description="Started during COVID-19 with a goal for creating a dedicated online learning platform 
-        for institute(IIITU). A team was arranged to work from backend, frontend, database management, etc.
-        The task was to create a site that not just have features of a proper online classroom but shold contain 
-        organised data and task in different section, more interactive, and specific to the demand of the institute.
-        The site must also be easy to update, fast, and secure. Furter least number of API calls and optimal use of space available
-        should do done. Project was done in a team and so required team work and leadership throught the planing, designing and 
-        programming phase. "
+          language="React JS, Node JS, Express JS, SQL"
+          duration="Dec 2021 - Jun 2022"
+          institute="AJVA FinTech"
+          description={[
+            "Enhanced existing products by adding features such as email notifications, tracking failed and successful entries during large data processing, and automatically identifying and deleting unwanted cached files etc.",
+            "Developed MERN stack websites (Frontend, Backend, and API) for monitoring, filtering, and downloading data from a PostgreSQL database with tables containing over 10 million entries.",
+          ]}
         />
       </div>
     </div>

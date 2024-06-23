@@ -1,12 +1,16 @@
 .ExperienceCard {
-    display: flex;
+    flex: 1;
     padding-left: 60px;
-    padding-right: 40px;
+    padding-right: 60px;
     align-items: center;
-    width: 100%;
+    justify-content: center;
+    display: flex;
+    width: 50%;
 }
 
 .ExperienceBody{
-    justify-content: center;
+    display: flex; 
+    gap: 5px;
+    justify-content: space-between;
     width: 100%;
 }
