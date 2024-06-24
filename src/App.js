@@ -162,34 +162,8 @@ const App = () => {
             <div className="div2Title">
               <Zoom>Education</Zoom>
             </div>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "left",
-                paddingTop: "20px",
-                paddingBottom: "20px",
-              }}
-            >
-              <div style={{ paddingLeft: "10vw" }}>
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Iiit-una-logo.png/220px-Iiit-una-logo.png"
-                  alt="IIITU logo"
-                  style={{
-                    height: "250px",
-                    width: "250px",
-                    marginRight: "5vw",
-                  }}
-                />
-              </div>
-
-              <div
-                style={{
-                  paddingLeft: "20px",
-                  fontSize: "24px",
-                  color: "rgb(105,105,105)",
-                }}
-              >
+            <div className="EductationBody">
+              <div className="EducationTest">
                 <LightSpeed left cascade>
                   <p>
                     <b>Institute: </b>Indian Institute of Information Technology
@@ -199,14 +173,21 @@ const App = () => {
                     <b>Branch: </b>Computer Science and Engineering
                   </p>
                   <p>
-                    <b>Year: </b>2019-23
-                    <b style={{ paddingLeft: "30px" }}>Status: </b>Graduated
+                    <b>Staring Year: </b>2019
+                    <b style={{ paddingLeft: "60px" }}>Completion Year: </b>2023
                   </p>
                   <p>
-                    <b>CGPI: </b>8.94
+                    <b>Status: </b>Graduated
                     <b style={{ paddingLeft: "70px" }}>Location: </b>Una, H.P.
                   </p>
                 </LightSpeed>
+              </div>
+              <div>
+                <img
+                  src="https://img.collegepravesh.com/2015/11/IIIT-Una-Logo.png"
+                  alt="IIITU logo"
+                  className="EducationLogo"
+                />
               </div>
             </div>
           </div>

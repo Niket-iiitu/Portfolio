@@ -23,3 +23,23 @@
   background-attachment: fixed;
   background-size: 100;
 }
+
+.EductationBody{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.EducationTest{
+  padding-left: 20px;
+  font-size: 24px;
+  color: rgb(105, 105, 105);
+}
+
+.EducationLogo{
+  height: 250px;
+  width: 250px;
+  margin-right: 5vw;
+}
