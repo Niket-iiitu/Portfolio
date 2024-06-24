@@ -48,7 +48,7 @@ const App = () => {
             >
               <ExpSet />
             </div>
-            <div>
+            {/* <div>
               <div className="div2Title">
                 <Zoom>Competitive Programming</Zoom>
               </div>
@@ -143,18 +143,11 @@ const App = () => {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="div2Title">
               <Zoom>Skill Set</Zoom>
             </div>
-            <div
-              Container
-              style={{
-                alignItems: "center",
-                paddingTop: "20px",
-                paddingBottom: "20px",
-              }}
-            >
+            <div Container className="SkillSection">
               <SkillSet />
             </div>
           </div>
@@ -191,31 +184,18 @@ const App = () => {
               </div>
             </div>
           </div>
-
-          <div className="div2Title">
-            <Zoom>Major Projects</Zoom>
-          </div>
-          <div
-            style={{
-              alignItems: "center",
-              paddingTop: "40px",
-              paddingBottom: "40px",
-            }}
-          >
-            <ProjectSet />
-          </div>
         </div>
         <div className="div2Title">
           <Zoom>Certificares</Zoom>
         </div>
-        <div
-          style={{
-            alignItems: "center",
-            paddingTop: "40px",
-            paddingBottom: "40px",
-          }}
-        >
+        <div className="CardSection">
           <CertificateSet />
+        </div>
+        <div className="div2Title">
+          <Zoom>Major Projects</Zoom>
+        </div>
+        <div className="CardSection">
+          <ProjectSet />
         </div>
         <div>
           <div className="div2Title">
@@ -266,11 +246,14 @@ const App = () => {
                 paddingTop: "20px",
               }}
             >
-              <b>OS Used: </b> Windows, Kubantu(Linux)
+              <b>Email: </b>{" "}
+              <a href="mailto:niketagrawal777@gmail.com">
+                niketagrawal777@gmail.com
+              </a>
+              <br />
+              <b>Mobile: </b> +91 9575931379
               <br />
               <b>Languages: </b> English, Hindi
-              <br />
-              <b>Nationality: </b> Indian
               <br />
             </div>
           </div>

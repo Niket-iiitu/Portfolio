@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 const SkillCard2 = ({ location, title }) => {
   return (
     <div>
-      <Fade bottom>
+      <Fade right cascade>
         <div className="container">
           <div className="row">
             <div className="HomeScreenAchievementsCard">
@@ -14,11 +14,7 @@ const SkillCard2 = ({ location, title }) => {
                     <img
                       src={process.env.PUBLIC_URL + location}
                       alt="skill"
-                      style={{
-                        width: "75%",
-                        height: "75%",
-                        backgroundColor: "white",
-                      }}
+                      className="SkillContent"
                     />
                     <p className="HomeScreenSkillContentP">{title}</p>
                   </div>

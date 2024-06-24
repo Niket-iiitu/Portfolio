@@ -35,3 +35,17 @@
   /* box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2); */
   /* border-color: rgb(5, 155, 255); */
 }
+
+.SkillSection{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.CardSection{
+  display: flex; /* Needed for alignItems to work */
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
