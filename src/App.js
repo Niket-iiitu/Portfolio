@@ -156,8 +156,8 @@ const App = () => {
               <Zoom>Education</Zoom>
             </div>
             <div className="EductationBody">
-              <div className="EducationTest">
-                <LightSpeed left cascade>
+              <LightSpeed left cascade>
+                <div className="EducationTest">
                   <p>
                     <b>Institute: </b>Indian Institute of Information Technology
                     Una
@@ -173,15 +173,17 @@ const App = () => {
                     <b>Status: </b>Graduated
                     <b style={{ paddingLeft: "70px" }}>Location: </b>Una, H.P.
                   </p>
-                </LightSpeed>
-              </div>
-              <div>
-                <img
-                  src="https://img.collegepravesh.com/2015/11/IIIT-Una-Logo.png"
-                  alt="IIITU logo"
-                  className="EducationLogo"
-                />
-              </div>
+                </div>
+              </LightSpeed>
+              <LightSpeed right cascade>
+                <div>
+                  <img
+                    src="https://img.collegepravesh.com/2015/11/IIIT-Una-Logo.png"
+                    alt="IIITU logo"
+                    className="EducationLogo"
+                  />
+                </div>
+              </LightSpeed>
             </div>
           </div>
         </div>
@@ -271,7 +273,7 @@ const App = () => {
           >
             <a href="https://drive.google.com/file/d/12RHwq7m2Ju3BQ0s1eSOsj_hjp0tpAlqW/view">
               <p>
-                <h4>Click here to open RESUME</h4>
+                <h4>Click to open RESUME</h4>
               </p>
             </a>
           </div>

@@ -37,30 +37,6 @@ const ProjectSet = () => {
         link="https://github.com/Niket-iiitu/MemoriesBackend"
         description="A website to share the most memorable moments of your life with others. You can also like others post."
       />
-
-      <ProjectCard
-        title="Student Management"
-        language="Python"
-        url="https://github.com/Niket-iiitu/Student-Management"
-        link="https://github.com/Niket-iiitu/Student-Management"
-        description="Offline desktop application that allows the user to manage details of students in schools/colleges. Takes general line input to understand the task to be conducted."
-      />
-
-      <ProjectCard
-        title="Code Chat"
-        language="Java, Android Studio, Firebase"
-        url="https://github.com/Niket-iiitu/Code_Chat_App"
-        link="https://github.com/Niket-iiitu/Code_Chat"
-        description="An online mobile(android) application made for secured communication through use of firebase ID. Provides complete online backup of data."
-      />
-
-      <ProjectCard
-        title="Task Share"
-        language="Dart, Flutter, Firebase"
-        url="https://github.com/Niket-iiitu/Task_Share"
-        link="https://github.com/Niket-iiitu/Task_Share"
-        description="An online mobile(android and ios) application for sharing and monitor task among employees/groups. Provides complete online backup of data."
-      />
     </div>
   );
 };

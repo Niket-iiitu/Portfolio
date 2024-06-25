@@ -2,10 +2,7 @@ import React from "react";
 import "./style.css";
 import Fade from "react-reveal/Fade";
 const Certificate = ({ url, title, img }) => {
-  var loc =
-    "https://raw.githubusercontent.com/Niket-iiitu/Portfolio/main/src/certificate/" +
-    img;
-  // console.log(process.env.PUBLIC_URL);
+  var loc = process.env.PUBLIC_URL + "/certificate/" + img;
   return (
     <div>
       <Fade bottom>
