@@ -1,13 +1,11 @@
 import React from "react";
 import myImage from "./images/myImage.jpg";
-import CodeWallpaper from "./images/CodeWallpaper.jpg";
 import headWallpaper from "./images/TeckWallpaper.jpeg";
 import SkillSet from "./SkillCard/skills";
 import ProjectSet from "./ProjectCard/projects";
 import CertificateSet from "./CertificateCard/cartificates";
 import ExpSet from "./ExpCard/Experience";
 import Zoom from "react-reveal/Zoom";
-import Rotate from "react-reveal/Rotate";
 import LightSpeed from "react-reveal/LightSpeed";
 import "./style.css";
 

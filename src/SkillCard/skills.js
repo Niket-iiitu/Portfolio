@@ -1,5 +1,4 @@
 import React from "react";
-import SkillCard from "./Card/skill";
 import SkillCard2 from "./Card/skill2";
 import "./skills.css";
 
