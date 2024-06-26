@@ -203,24 +203,12 @@ const App = () => {
           <div className="div2Title">
             <Zoom>Contact Details</Zoom>
           </div>
-          <div
-            style={{
-              display: "flex",
-              width: "100%",
-            }}
-          >
-            <div
-              style={{
-                padding: "20px",
-                paddingLeft: "15%",
-                fontSize: "15px",
-                width: "50%",
-              }}
-            >
+          <div className="ContactContent">
+            <div className="ContactLeft">
               <img
                 align="left"
-                alt="Nikets's Codeforces"
-                style={{ height: "25px", width: "25px", marginRight: "8px" }}
+                alt="Nikets's LinkedIn"
+                className="IconStyle"
                 src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/linkedin.svg"
               />
               <b>LinkedIn: </b>{" "}
@@ -231,23 +219,28 @@ const App = () => {
               <div style={{ paddingTop: "20px" }} />
               <img
                 align="left"
-                alt="Nikets's Codeforces"
-                style={{ height: "25px", width: "25px", marginRight: "8px" }}
+                alt="Nikets's GitHub"
+                className="IconStyle"
                 src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/github.svg"
               />
               <b>Git Hub: </b>{" "}
               <a href="https://github.com/Niket-iiitu">Click Here</a>
               <br />
+              <div style={{ paddingTop: "20px" }} />
+              <img
+                align="left"
+                alt="Nikets's Resume"
+                className="IconStyle"
+                src="https://cdn.simpleicons.org/googledocs/000000"
+              />
+              <b>Resume: </b>{" "}
+              <a href="https://drive.google.com/file/d/12RHwq7m2Ju3BQ0s1eSOsj_hjp0tpAlqW/view">
+                Click Here
+              </a>
+              <br />
             </div>
 
-            <div
-              style={{
-                padding: "20px",
-                paddingLeft: "20%",
-                width: "50%",
-                paddingTop: "20px",
-              }}
-            >
+            <div className="ContactRight">
               <b>Email: </b>{" "}
               <a href="mailto:niketagrawal777@gmail.com">
                 niketagrawal777@gmail.com
@@ -258,24 +251,6 @@ const App = () => {
               <b>Languages: </b> English, Hindi
               <br />
             </div>
-          </div>
-        </div>
-        <div>
-          <div
-            style={{
-              padding: "20px",
-              width: "100%",
-              paddingTop: "20px",
-              display: "flex",
-              alignContent: "center",
-              justifyContent: "center",
-            }}
-          >
-            <a href="https://drive.google.com/file/d/12RHwq7m2Ju3BQ0s1eSOsj_hjp0tpAlqW/view">
-              <p>
-                <h4>Click to open RESUME</h4>
-              </p>
-            </a>
           </div>
         </div>
       </main>
