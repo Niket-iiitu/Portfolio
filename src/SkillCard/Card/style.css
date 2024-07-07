@@ -1,19 +1,19 @@
 .HomeScreenSkillContent {
   box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 10px 5px 10px 5px;
-  min-width: 130px !important;
-  height: 115px !important;
+  min-width: 260px !important;
+  height: 230px !important;
   background-color: #fffdfd;
   text-align: center;
   border-radius: 10px;
 }
 
-.HomeScreenSkillContentP {
-  font-size: 1.1rem;
+.HomeScreenSkillContentTitle {
+  font-size: 30px;
   font-weight: bold;
 }
 

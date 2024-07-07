@@ -1,0 +1,11 @@
+.projectContainer{
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; 
+  width: 100%;
+}

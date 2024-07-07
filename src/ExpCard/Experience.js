@@ -15,6 +15,7 @@ const ExpSet = () => {
             "Improved stability and performance for the Jio Enterprise Portal.",
             "Migrated projects from JSP and JavaScript to React for improved performance and maintainability.",
             "Developed a mechanism for bandwidth changes in existing subscriptions, enabling the portal to gather all available options, display the most viable ones, and facilitate approval by relevant officials based on the chosen solution.",
+            "Optimized backend by implementing caching to retrieve pre-processed data, reducing database load and improving performance.",
           ]}
         />
       </div>

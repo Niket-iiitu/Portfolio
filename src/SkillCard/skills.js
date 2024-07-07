@@ -4,7 +4,7 @@ import "./skills.css";
 
 const SkillSet = () => {
   return (
-    <div className="ExperienceSet">
+    <div className="row SkillSection">
       <SkillCard2 location="/icons/java.jpeg" title="Java" />
       <SkillCard2 location="/icons/spring.png" title="Spring" />
       <SkillCard2 location="/icons/maven.png" title="Maven" />

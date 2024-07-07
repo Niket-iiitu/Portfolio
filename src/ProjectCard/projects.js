@@ -1,19 +1,10 @@
 import React from "react";
 import ProjectCard from "./Card/project";
+import "./project.css";
 
 const ProjectSet = () => {
   return (
-    <div
-      className="row"
-      style={{
-        paddingLeft: "40px",
-        paddingRight: "40px",
-        alignItems: "center",
-        justifyContent: "center",
-        alignContent: "center",
-        width: "100vw",
-      }}
-    >
+    <div className="projectContainer">
       <ProjectCard
         title="Tools Online"
         language="Node JS, React, Redux, Bootstrap, Mongo DB"

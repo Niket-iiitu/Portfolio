@@ -1,206 +1,96 @@
 import React from "react";
 import myImage from "./images/myImage.jpg";
-import headWallpaper from "./images/TeckWallpaper.jpeg";
 import SkillSet from "./SkillCard/skills";
 import ProjectSet from "./ProjectCard/projects";
 import CertificateSet from "./CertificateCard/cartificates";
 import ExpSet from "./ExpCard/Experience";
 import Zoom from "react-reveal/Zoom";
 import LightSpeed from "react-reveal/LightSpeed";
-import "./style.css";
+import "./App.css";
+import Fade from "react-reveal/Fade";
 
 const App = () => {
   return (
-    <div>
-      <main>
-        <div style={{ backgroundColor: "black" }}>
-          <center>
-            <div
-              style={{
-                backgroundImage: `url(${headWallpaper})`,
-                paddingTop: "5vh",
-                paddingBottom: "5vh",
-                paddingLeft: "5vh",
-                margin: "0px",
-                textStyle: "bold",
-              }}
-              className="headDiv"
-            >
-              <img src={myImage} alt="Niket Agrawal" className="image" />
-              <div className="div1text">Niket Agrawal</div>
-              <div className="div1text">Full Stack Web Developer</div>
-            </div>
-          </center>
-        </div>
-        <div>
-          <div>
-            <div className="div2Title">
-              <Zoom>Experience</Zoom>
-            </div>
-            <div
-              style={{
-                alignItems: "center",
-                paddingTop: "40px",
-                paddingBottom: "40px",
-              }}
-            >
-              <ExpSet />
-            </div>
-            {/* <div>
-              <div className="div2Title">
-                <Zoom>Competitive Programming</Zoom>
-              </div>
-              <div
-                style={{
-                  paddingLeft: "70px",
-                  paddingBottom: "10px",
-                  paddingTop: "20px",
-                  display: "flex",
-                }}
-              >
-                <div style={{ width: "75%" }}>
-                  <div style={{ paddingTop: "20px" }} />
-                  <Rotate top left>
-                    <img
-                      align="left"
-                      alt="Nikets's GeeksForGeeks"
-                      style={{
-                        height: "20px",
-                        width: "20px",
-                        marginRight: "8px",
-                      }}
-                      src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/geeksforgeeks.svg"
-                    />
-                    <a href="https://auth.geeksforgeeks.org/user/niketagrawal100/practice">
-                      Geeks for Geeks
-                    </a>
-                    700+ problems solved of various dificulty.
-                  </Rotate>
-                  <br />
-                  <Rotate top left>
-                    <img
-                      align="left"
-                      alt="Nikets's LeeTCode"
-                      style={{
-                        height: "20px",
-                        width: "20px",
-                        marginRight: "8px",
-                      }}
-                      src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/leetcode.svg"
-                    />
-                    <a href="https://leetcode.com/NIKET_100/">LeeCode</a>
-                    300+ questions solved and working for more.
-                  </Rotate>
-                  <br />
-                  <Rotate top left>
-                    <img
-                      align="left"
-                      alt="Nikets's Codechef"
-                      style={{
-                        height: "20px",
-                        width: "20px",
-                        marginRight: "8px",
-                      }}
-                      src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/codechef.svg"
-                    />
-                    <a href="https://www.codechef.com/users/niket999">
-                      Code Chef
-                    </a>
-                    Currently a 4 star coder and working on more.
-                  </Rotate>
-                  <br />
-                  <Rotate top left>
-                    <img
-                      align="left"
-                      alt="Nikets's Codeforces"
-                      style={{
-                        height: "20px",
-                        width: "20px",
-                        marginRight: "8px",
-                      }}
-                      src="https://cdn.jsdelivr.net/npm/simple-icons@3.6.1/icons/codeforces.svg"
-                    />
-                    <a href="https://codeforces.com/profile/NIKET-777">
-                      Code Forces
-                    </a>
-                    1,400+ Points gained, and planing for more.
-                  </Rotate>
-                  <br />
-                </div>
-                <div
-                  style={{
-                    width: "25%",
-                    display: "flex",
-                    marginTop: "30px",
-                  }}
-                >
-                  <img
-                    src={CodeWallpaper}
-                    style={{ height: "250px", width: "250px" }}
-                    alt="Competitive Programming"
-                  />
-                </div>
-              </div>
-            </div> */}
-            <div className="div2Title">
-              <Zoom>Skill Set</Zoom>
-            </div>
-            <div Container className="SkillSection">
-              <SkillSet />
-            </div>
-          </div>
-          <div>
-            <div className="div2Title">
-              <Zoom>Education</Zoom>
-            </div>
-            <div className="EductationBody">
-              <LightSpeed left cascade>
-                <div className="EducationTest">
-                  <p>
-                    <b>Institute: </b>Indian Institute of Information Technology
-                    Una
-                  </p>
-                  <p>
-                    <b>Branch: </b>Computer Science and Engineering
-                  </p>
-                  <p>
-                    <b>Staring Year: </b>2019
-                    <b style={{ paddingLeft: "60px" }}>Completion Year: </b>2023
-                  </p>
-                  <p>
-                    <b>Status: </b>Graduated
-                    <b style={{ paddingLeft: "70px" }}>Location: </b>Una, H.P.
-                  </p>
-                </div>
-              </LightSpeed>
-              <LightSpeed right cascade>
-                <div>
-                  <img
-                    src="https://img.collegepravesh.com/2015/11/IIIT-Una-Logo.png"
-                    alt="IIITU logo"
-                    className="EducationLogo"
-                  />
-                </div>
-              </LightSpeed>
-            </div>
-          </div>
-        </div>
-        <div className="div2Title">
-          <Zoom>Certificares</Zoom>
-        </div>
-        <div className="CardSection">
-          <CertificateSet />
-        </div>
-        <div className="div2Title">
-          <Zoom>Major Projects</Zoom>
-        </div>
-        <div className="CardSection">
-          <ProjectSet />
-        </div>
+    <div className="mainStyle">
+      <div className="headDiv">
+        <img src={myImage} alt="Niket Agrawal" className="image" />
+        <div className="div1text">Niket Agrawal</div>
+        <div className="div1text">Full Stack Web Developer</div>
+      </div>
+      <div>
         <div>
           <div className="div2Title">
-            <Zoom>Contact Details</Zoom>
+            <Zoom>Experience</Zoom>
           </div>
+          <div
+            style={{
+              alignItems: "center",
+              paddingTop: "40px",
+              paddingBottom: "40px",
+              maxWidth: "100vw",
+            }}
+          >
+            <ExpSet />
+          </div>
+          <div className="div2Title">
+            <Zoom>Skill Set</Zoom>
+          </div>
+          <div Container className="SkillSection">
+            <SkillSet />
+          </div>
+        </div>
+        {/* <div> */}
+        <div className="div2Title">
+          <Zoom>Education</Zoom>
+        </div>
+        <div className="EductationBody">
+          <LightSpeed left cascade>
+            <div className="EducationTest">
+              <p>
+                <b>Institute: </b>Indian Institute of Information Technology Una
+              </p>
+              <p>
+                <b>Branch: </b>Computer Science and Engineering
+              </p>
+              <p>
+                <b>Staring Year: </b>2019
+                <b style={{ paddingLeft: "60px" }}>Completion Year: </b>2023
+              </p>
+              <p>
+                <b>Status: </b>Graduated
+                <b style={{ paddingLeft: "70px" }}>Location: </b>Una, H.P.
+              </p>
+            </div>
+          </LightSpeed>
+          <LightSpeed right cascade>
+            <div>
+              <img
+                src="https://img.collegepravesh.com/2015/11/IIIT-Una-Logo.png"
+                alt="IIITU logo"
+                className="EducationLogo"
+              />
+            </div>
+          </LightSpeed>
+        </div>
+        {/* </div> */}
+      </div>
+      <div className="div2Title">
+        <Zoom>Certificares</Zoom>
+      </div>
+      <div className="CardSection">
+        <CertificateSet />
+      </div>
+      <div className="div2Title">
+        <Zoom>Major Projects</Zoom>
+      </div>
+      <div className="CardSection">
+        <ProjectSet />
+      </div>
+      <div>
+        <div className="div2Title">
+          <Zoom>Contact Details</Zoom>
+        </div>
+        <Fade up cascade>
           <div className="ContactContent">
             <div className="ContactLeft">
               <img
@@ -237,9 +127,8 @@ const App = () => {
               </a>
               <br />
             </div>
-
             <div className="ContactRight">
-              <b>Email: </b>{" "}
+              <b>Email: </b>
               <a href="mailto:niketagrawal777@gmail.com">
                 niketagrawal777@gmail.com
               </a>
@@ -250,8 +139,8 @@ const App = () => {
               <br />
             </div>
           </div>
-        </div>
-      </main>
+        </Fade>
+      </div>
     </div>
   );
 };

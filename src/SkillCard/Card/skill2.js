@@ -16,7 +16,7 @@ const SkillCard2 = ({ location, title }) => {
                       alt="skill"
                       className="SkillContent"
                     />
-                    <p className="HomeScreenSkillContentP">{title}</p>
+                    <p className="HomeScreenSkillContentTitle">{title}</p>
                   </div>
                 </div>
               </div>

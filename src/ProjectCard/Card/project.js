@@ -1,6 +1,6 @@
 import React from "react";
 import LightSpeed from "react-reveal/LightSpeed";
-import "./style.css";
+import "./project.css";
 import Flip from "react-reveal/Flip";
 
 const ProjectCard = ({ title, language, description, link, url }) => {
