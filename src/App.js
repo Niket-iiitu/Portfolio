@@ -22,14 +22,7 @@ const App = () => {
           <div className="div2Title">
             <Zoom>Experience</Zoom>
           </div>
-          <div
-            style={{
-              alignItems: "center",
-              paddingTop: "40px",
-              paddingBottom: "40px",
-              maxWidth: "100vw",
-            }}
-          >
+          <div className="ExperienceSection">
             <ExpSet />
           </div>
           <div className="div2Title">
@@ -39,27 +32,40 @@ const App = () => {
             <SkillSet />
           </div>
         </div>
-        {/* <div> */}
         <div className="div2Title">
           <Zoom>Education</Zoom>
         </div>
         <div className="EductationBody">
           <LightSpeed left cascade>
             <div className="EducationTest">
-              <p>
-                <b>Institute: </b>Indian Institute of Information Technology Una
-              </p>
-              <p>
-                <b>Branch: </b>Computer Science and Engineering
-              </p>
-              <p>
-                <b>Staring Year: </b>2019
-                <b style={{ paddingLeft: "60px" }}>Completion Year: </b>2023
-              </p>
-              <p>
-                <b>Status: </b>Graduated
-                <b style={{ paddingLeft: "70px" }}>Location: </b>Una, H.P.
-              </p>
+              <div className="row">
+                <p>
+                  <b>Institute: </b>Indian Institute of Information Technology
+                  Una
+                </p>
+              </div>
+              <div className="row">
+                <p>
+                  <b>Branch: </b>Computer Science and Engineering
+                </p>
+              </div>
+              <div className="row">
+                <p style={{ paddingRight: "40px" }}>
+                  <b>Staring Year: </b>2019
+                </p>
+                <p>
+                  <b>Completion Year: </b>
+                  2023
+                </p>
+              </div>
+              <div className="row">
+                <p style={{ paddingRight: "50px" }}>
+                  <b>Status: </b>Graduated
+                </p>
+                <p>
+                  <b>Location: </b>Una, H.P.
+                </p>
+              </div>
             </div>
           </LightSpeed>
           <LightSpeed right cascade>
@@ -72,7 +78,6 @@ const App = () => {
             </div>
           </LightSpeed>
         </div>
-        {/* </div> */}
       </div>
       <div className="div2Title">
         <Zoom>Certificares</Zoom>

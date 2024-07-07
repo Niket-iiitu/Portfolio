@@ -4,7 +4,7 @@ import "./Experience.css";
 
 const ExpSet = () => {
   return (
-    <div className="ExperienceBody">
+    <div className="row ExperienceBody">
       <div className="ExperienceCard">
         <ExpCard
           title="Software Developer"

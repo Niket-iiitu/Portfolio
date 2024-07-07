@@ -18,6 +18,8 @@
 
 @media (max-width: 1400px) {
     .ExperienceBody {
-      flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
 }
